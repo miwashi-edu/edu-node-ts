@@ -23,6 +23,13 @@ touch service.ts
 touch server.ts
 ```
 
+## DoD
+
+```bash
+npm run build
+npm stat
+```
+
 ## service.ts
 
 ```ts
