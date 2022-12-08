@@ -43,7 +43,7 @@ dotenv.config();
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`Server is running at https://localhost:${PORT}`);
+    console.log(`Server is listening at port ${PORT}`);
 });
 ```
 
@@ -56,5 +56,5 @@ import express, { Express, Request, Response } from 'express';
 export const app: Express = express();
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Express + TypeScript Server');
+    res.json({"status":"success"});
 });
