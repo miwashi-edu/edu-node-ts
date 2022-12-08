@@ -1,4 +1,4 @@
-# edu-node-ts
+# edu-node-ts-intro
 
 ## instruktioner
 
