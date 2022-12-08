@@ -28,6 +28,9 @@ touch server.ts
 ```bash
 npm run build
 npm start
+
+# eller
+npx tsc && npm start
 ```
 
 ## service.ts
