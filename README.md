@@ -27,7 +27,7 @@ touch server.ts
 
 ```bash
 npm run build
-npm stat
+npm start
 ```
 
 ## service.ts
